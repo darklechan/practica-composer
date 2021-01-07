@@ -1,0 +1,20 @@
+{
+    "name": "micodigo/practica-composer",
+    "description": "My first packagist package",
+    "type": "package",
+    "require": {},
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Valeria Escalante",
+            "email": "darklechan92@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "micodigo\\PracticaComposer": "src/"
+        }
+    }
+    
+}
